@@ -1,0 +1,71 @@
+name: slack_ui_homepage
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # ? localization
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  dartz: ^0.10.1
+  get_it: ^7.7.0
+
+  # ? network
+  dio: ^5.6.0
+  pretty_dio_logger: ^1.4.0
+
+  # ? resize
+  flutter_screenutil: ^5.9.3
+
+  # ? state management
+  flutter_bloc: ^8.1.6
+
+  # ? utils
+  flutter_svg: ^2.0.10+1
+
+  lottie: ^3.3.1
+
+  rxdart: ^0.28.0
+  url_launcher: ^6.3.0
+
+  # ? test
+  mockito: ^5.4.4
+  bloc_test: ^9.1.7
+
+  haptic_feedback: ^0.5.1+1
+
+
+
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+  flutter_launcher_icons: "^0.13.1"
+  change_app_package_name: ^1.1.0
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/ic_app.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/json/

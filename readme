@@ -1,0 +1,16 @@
+To change icon app use the command:
+flutter pub run flutter_launcher_icons
+
+To change package name use the command:
+flutter pub run change_app_package_name:main <com.new.package.name>
+
+To change app name use the command:
+flutter pub global run rename --appname <"Network Upp"> all platforms 
+flutter pub global run rename --appname YourAppName --target ios
+flutter pub global run rename --appname YourAppName --target android
+flutter pub global run rename --appname YourAppName --target web
+flutter pub global run rename --appname YourAppName --target macOS
+flutter pub global run rename --appname YourAppName --target windows
+
+
+
