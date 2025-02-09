@@ -7,7 +7,7 @@ class Category {
   final String title;
   final int count;
 
-  Category({
+  const Category({
     required this.id,
     required this.icon,
     required this.count,

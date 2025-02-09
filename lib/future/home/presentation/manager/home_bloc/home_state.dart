@@ -4,16 +4,12 @@ abstract class HomeState {}
 
 class HomeInitial extends HomeState {}
 
-class OffsetChangedState extends HomeState {
-  final double offset;
-  OffsetChangedState(this.offset);
-}
+class ExpandMentionsState extends HomeState {}
 
-class FailureData extends HomeState {
-  final String message;
-  FailureData(this.message);
-}
+class ExpandUnreadState extends HomeState {}
 
-class LoadingData extends HomeState {}
+class ExpandChannelState extends HomeState {}
 
-class RequestUpdateApp extends HomeState {}
+class ExpandMessageState extends HomeState {}
+
+class CategoryChangeState extends HomeState {}
