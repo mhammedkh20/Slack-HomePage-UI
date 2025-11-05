@@ -65,8 +65,6 @@ Ideal as a template for building animated dashboards, social apps, or modern lan
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/2b229c48-851c-4a7c-beff-d1d78d3218f7" />
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/9d70e4a6-1371-442c-a03a-1155f5a93c25" />
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/8d5b1730-aefb-4640-8977-24d7a3422c79" />
-![slack ui 2](https://github.com/user-attachments/assets/283518f8-ed7e-4120-a50e-b88dda8bee0b)
-
 
 
 📦 Technologies
